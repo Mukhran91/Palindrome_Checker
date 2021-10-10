@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #F0F8FF;
+}
+h1{
+    color: #708090;
+}
+input{
+    padding: 10px;
+    border: 1px solid #708090;
+    border-radius: 30px;
+    width: 20rem;
+    margin: 1rem 2rem;
+    outline: none;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
